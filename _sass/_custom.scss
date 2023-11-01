@@ -1,0 +1,262 @@
+img .fullwidth { /* non funziona, perché? */
+    width: 100%;
+}
+
+.chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+}
+
+.fixed-top{
+    z-index: 999;
+    background: none !important;
+    box-shadow: none !important;
+    position:absolute;
+
+}
+footer .container{
+    width: 80%;
+}
+
+ul.dashed{
+    margin-top: -10px;
+}
+ul.dashed > li{
+    padding-left: 15px !important;
+    text-indent: -5px;
+}
+
+ul.dashed > li:before{
+    content: "-";
+    width: 10px;
+    margin-left: -5px;
+    display: inline-block;
+}
+/*.tabs .indicator{
+    background-color: $color-type2 !important;
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+    background-color: $color-type2-light !important;
+}*/
+
+.card-action.text-right{
+    text-align: right;
+}
+
+.card-action.text-right a{
+    margin-right: 0px !important;
+    margin-left: 24px !important;
+}
+
+.collapsible-header > .row{
+    flex:auto;
+    margin:0px;
+}
+
+.card .collapsible{
+    box-shadow: none;
+    border-left: none;
+    border-right: none;
+}
+
+.card .collapsible .collapsible-header{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.card .collapsible .collapsible-header .row div.col:first-of-type{
+    padding-left:0px;
+    text-align: center;
+}
+
+.card .collapsible .collapsible-header .row div.col:last-of-type{
+    padding-right:0px;
+}
+
+.collapsible-header i:not(.material-icons){
+    width: auto;
+    font-size: inherit;
+    display: inline;
+    text-align: inherit;
+}
+
+.card-action.text-right a{
+    display: inline-flex;
+    vertical-align: baseline;
+}
+
+.card-action.text-right i.material-icons{
+    margin-right: 6px;
+}
+
+
+.card-title-custom{
+    @extend .custom2-text;
+    font-size: 14pt !important;
+    font-weight: 400 !important;
+    margin-bottom: 1em;
+    text-align: left !important;
+    line-height: auto !important;
+    display: inline-block;
+}
+
+.card-title-custom.activator,
+.card-title-custom.closer{
+    display:flex !important;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card-title-custom.closer i.material-icons{
+    margin-top: 4px;
+}
+.card.zoom-image .card-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#gradient-nav{
+    position:absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    z-index: 990;
+    //background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 99%);
+    background: rgba(0,0,0, 0.4);
+
+}
+ #chevron-banner{
+     position: absolute;
+     bottom: 20px;
+     right: 40px;
+     color: white;
+     z-index:999;
+     cursor: pointer
+ }
+ #chevron-banner i{
+      font-size: 60px;
+}
+
+ #banner-description{
+     position:absolute;
+     z-index: 999;
+     left:0;
+     right:0;
+     top: 20%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color:white;
+     text-transform: uppercase;
+     font-weight: 300;
+     font-size: 16pt;
+}
+
+
+#banner-description img{
+    margin-bottom: 1em;
+    height: 250px;
+}
+
+#banner-description div{
+    text-align: center;
+}
+
+.slider{
+    z-index: 50;
+}
+.slider .indicators{
+    z-index: 999 !important;
+}
+.schedule-day{
+    font-size:16pt;
+margin: 1.0933333333rem 0 0.656rem 0;
+}
+.schedule-day i.material-icons{
+    font-size:20pt;
+    margin-right: 5px;
+}
+
+//sets color for font-awesome icons
+.fa {
+    color: $secondary-color
+}
+
+.carousel {
+    height: 500px;
+    .carousel-item {
+	width: 500px;
+	img {
+	    width:100%;
+	}
+    }
+}
+
+@import "custom_c/events";
+@import "custom_c/article";
+
+#index-top-logo {
+width: 100%;
+padding: 20px 0 0 0;
+}
+
+#regform{
+    width: 100%;
+    height: 720px;
+}
+
+.card.customh .card-image{
+    height:200px;
+    overflow: hidden;
+}
+
+.left-padding{
+    padding-left: 4em !important;
+    text-indent: -0.3em;
+}
+
+.left-padding:before{
+    content: "-";
+    width: 1em;
+    margin-left: -0.7em;
+    display: inline-block;
+}
+
+#overlay{
+    @extend .black;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0.5;
+    z-index: 60;
+    display: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+#index-page h2 { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}
+
+#index-page h3 { font-size: $h4-fontsize; line-height: 110%; margin: ($h4-fontsize / 2) 0 ($h4-fontsize / 2.5) 0;}
+
+#index-page h4 { font-size: $h3-fontsize; line-height: 110%; margin: ($h3-fontsize / 2) 0 ($h3-fontsize / 2.5) 0;}
+
+#foto-eventi { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}
+
+#index-collection-eventi span { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}

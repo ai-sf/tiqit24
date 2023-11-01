@@ -1,0 +1,22 @@
+logo: "img/logo-white.png"
+longname: "Trento Innsbruck Quantum Information Tour"
+
+who:
+    text: "35 Physics students of whom:"
+    subpoints:
+        - text: "? among Trento AISF (Associazione Italiana Studenti di Fisica) members"
+        - text: "? among Innsbruck students"
+        - text: "? among IAPS (International Association of Physics Students) members"
+
+when: "From February 19th to February 23rd 2024"
+
+where: "The first three days will be spent in in Innsbruck at the IQOQI research center and the University, the last two in Trento visiting the University and FBK labs"
+
+slideshow:
+  - img: img/trento.jpg
+    alt: Trento
+  - img: img/innsbruck.jpg
+    alt: Innsbruck
+
+
+paragraph: "The Trento-Innsbruck Quantum Information Tour is an event organised by AISF Trento (Local Committee of the Italian Association of Physics Students AISF) in collaboration with AISF: it will bring 35 enthusiast students to visit some of the most advanced research facilities in Trento and Innsbruck and is conceived to showcase research mainly in the field of Quantum Information and Quantum Science."

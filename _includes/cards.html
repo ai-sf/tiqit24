@@ -1,0 +1,55 @@
+{% if include.data.cards %}
+
+{% for cards in include.data.cards %}
+    {% if cards.size == "small" %}
+        {% assign size = "4" %}
+    {% else %}
+        {% assign size = "6" %}
+    {% endif %}
+    <div class="section">
+        {% if cards.name %}
+            <h4>{{ cards.name }}</h4>
+        {% endif %}
+        <div class="row">
+            {% for item in cards.items %}
+                <div class="col s12 m{{size}}" >
+                    <div {% if item.tag%} id="{{item.tag}}" {% endif %} class="card sticky-action customh {% if cards.zoom == true %} zoom-image {% endif %}">
+                        <div class="card-image valign-wrapper">
+                            <img src="{{ site.url}}/{{ item.img }}" class="activator">
+                        </div>
+                        <div class="card-content">
+                            {% if item.descr %}
+                            <span class="card-title card-title-custom activator">
+                                <span class="activator">{{ item.title }}</span>
+                                <i class="material-icons right grey-text text-darken-4">more_vert</i>
+                            </span>
+                            {% else %}
+                            <span class="card-title card-title-custom">
+                                {{ item.title }}
+                            </span>
+                            {% endif %}
+                        </div>
+                        {% if item.descr %}
+                        <div class="card-reveal">
+                            <span class="card-title card-title-custom closer">
+                                <span>{{ item.title }}</span>
+                                <i class="material-icons right grey-text text-darken-4">close</i>
+                            </span>
+                            <p><small>{{ item.descr }}</small></p>
+                        </div>
+                        {% endif %}
+                        <div class="card-action text-right">
+                            {% if item.map %}
+                                <a href="{{ item.map }}" target="_blank"> <i class="material-icons">map</i>Map</a>
+                            {% endif %}
+                            {% if item.site %}
+                                <a href="{{ item.site }}"> <i class="material-icons">public</i>Website</a>
+                            {% endif %}
+                            </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+{% endif %}

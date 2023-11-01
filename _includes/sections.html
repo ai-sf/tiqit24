@@ -1,0 +1,62 @@
+{% if include.data.sections %}
+{% for section in include.data.sections %}
+    <div class="section">
+        <h4>{{ section.name}}</h4>
+        {% if section.info %}
+            <p>{{ section.info }}<p>
+        {% endif %}
+        <ul class="collection">
+            {% for item in section.points %}
+                <li
+                    {% if item.url %}
+                        {% if item.url contains "http://" %}
+                            href="{{ item.url }}"
+                        {% else %}
+                            href="{{ site.url }}/{{ item.url }}"
+                        {% endif %}
+                    {% endif %}
+                class="collection-item row black-text valign-wrapper" style="display:flex; align-items: center;">
+                    <div href="#" class="col {% if item.url %} s10 {% else %} s12 {% endif %}">
+                        {{ item.text }}
+                    </div>
+                    {% if item.url %}
+                    <div class="col s2 right-align">
+                        <div class="chip custom1 white-text">
+                            {% if item.button %}
+                                {{ item.button }}
+                            {% else %}
+                                Link
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endif %}
+                </li>
+                {% for subitem in item.subpoints %}
+                    <li
+                        {% if subitem.url %}
+                            {% if subitem.url contains "http://" %}
+                                href="{{ subitem.url }}"
+                            {% else %}
+                                href="{{ subitem.url }}/{{ subitem.url }}"
+                            {% endif %}
+                        {% endif %}
+                    class="collection-item black-text left-padding">
+                        {{ subitem.text }}
+                        {% if subitem.url %}
+                            {% if subitem.url != "#!" %}
+                                <span class="badge custom1 white-text">
+                                    {% if subitem.button%}
+                                        {{ subitem.button }}
+                                    {% else %}
+                                        Link
+                                    {% endif %}
+                                </span>
+                            {% endif %}
+                        {% endif %}
+                            </li>
+                {% endfor %}
+            {% endfor %}
+                        </ul>
+    </div>
+{% endfor %}
+{% endif %}

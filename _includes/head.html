@@ -1,0 +1,16 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.url }}/favicon.ico">
+    <title>{% if page.title %}{{ site.data.generic.title }} - {{ page.title }}{% else %}{{ site.data.generic.title }} - {{ site.data.generic.long_title }}{% endif %}</title>
+
+
+<!-- og -->
+    {% include opengraph.html %}
+
+<!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link href="{{ site.url }}/css/main.css" type="text/css" rel="stylesheet" media="screen"/>
+</head>

@@ -1,0 +1,162 @@
+---
+layout: default
+---
+
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <br><br>
+            <h1 class="header center orange-text text-lighten-2">Programme</h1>
+            <br><br>
+        </div>
+    </div>
+    <div class="parallax"><img src="{{site.url}}/img/fotofiga2.jpg"></div>
+</div>
+
+
+<div class="container">
+    {% include description.html data=site.data.programme %}
+    <div class="section">
+        <div class="card custom1">
+            <div class="card-content white-text"><h4>Schedule</h4></div>
+                <div class="card-tabs">
+                    <ul class="tabs tabs-fixed-width tabs-transparent">
+                        {% for item in site.data.programme.schedule %}
+                            <li class="tab" style="width: 25%;"><a href="#{{ item.day }}">{{ item.day }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="card-content white">
+                    {% for item in site.data.programme.schedule %}
+                    <div id="{{item.day}}">
+                        <div class="row">
+                            <div class="col l6 m12">
+                                <h5 class="custom1-text">{{ item.day }} {{ item.date }}</h5>
+                            </div>
+                            <div class="col l6 m12 right-align schedule-day">
+                                <i class="material-icons">room</i>
+                                {{item.location}}
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s2 center"><i class="material-icons">access_time</i></div>
+                            <div class="col s9"><b>Activity</b></div>
+                        </div>
+                        <ul class="collapsible">
+
+                            {% for act in item.activity %}
+                                <li>
+                                    <div class="collapsible-header">
+                                        <div class="row">
+                                            <div class="col s2">{{ act.hour }}</div>
+                                            <div class="col s9">{{ act.name }}</div>
+                                            <div class="col s1">
+                                                <i class="material-icons">keyboard_arrow_down</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="collapsible-body">
+                                        {% if act.title %}
+                                            <div class="row">
+                                                <div class="col s1 right-align">
+
+                                                </div>
+                                                <div class="col s11">
+                                                    <b> {{act.title}} </b>
+                                                </div>
+                                            </div>
+                                        {% endif %}
+                                        {% if act.location %}
+                                            {% if act.location.name %}
+                                                    {% assign photo =  "img/facilities/gen.jpg" %}
+                                                    {% for x in site.data.facilities.cards %}
+                                                        {% for y in x.items %}
+                                                            {% if y.tag == act.location.tag %}
+                                                                {% assign photo = y.img%}
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                    {% endfor %}
+
+                                                        <div class="row">
+                                                            <div class ="col s1 right-align">
+                                                                <i class="material-icons">room</i>
+                                                            </div>
+                                                            <div class="col s11">
+                                                            <a class="chip hoverable" href="{{site.url}}/facilities/#{{act.location.tag}}">
+                                                                <img src="{{site.url}}/{{photo}}" alt="Contact Person">
+                                                           {{act.location.name}}
+                                                         </a>
+                                                         </div>
+                                                         </div>
+                                                    {% if act.location.room %}
+                                                    <div class="row">
+                                                    <div class="col s11  offset-s1">
+                                                     {{act.location.room}}
+                                                 </div>
+                                                 </div>
+                                                     {% endif %}
+                                            {% endif %}
+                                        {% endif %}
+                                        {% if act.group %}
+                                            {% assign photo =  "img/facilities/gen.jpg" %}
+                                            {% assign disp =  "Group" %}
+                                            {% for x in site.data.facilities.cards %}
+                                                {% for y in x.items %}
+                                                    {% if y.tag == act.group %}
+                                                        {% assign photo = y.img%}
+                                                        {% assign disp = y.title %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                            {% endfor %}
+                                            <div class="row">
+                                                <div class ="col s1 right-align">
+                                                    <i class="material-icons">school</i>
+                                                </div>
+                                                <div class="col s11">
+                                                <a class="chip hoverable" href="{{site.url}}/facilities/#{{act.group}}">
+                                                    <img src="{{site.url}}/{{photo}}" alt="Contact Person">
+                                               {{disp}}
+                                             </a>
+                                             </div>
+                                             </div>
+
+                                        {% endif %}
+                                        {% if act.subactivities %}
+                                            <div class="row">
+                                                <div class="col s1 right-align">
+                                                    <i class="material-icons">person</i>
+                                                </div>
+                                                <div class="col s11">
+                                                    Talks
+                                                </div>
+                                            </div>
+
+                                            {% for sub in act.subactivities %}
+                                                <div class="row">
+                                                    <div class="col s6 m4 offset-s1 offset-m1">{{sub.people.name}}</div>
+                                                    <div class="col s6 m7">
+                                                        <div class="bold">
+                                                            {{sub.title}}
+                                                        </div>
+                                                        {% if sub.abstract %}
+                                                            <div class="italic">
+                                                                {{sub.abstract}}
+                                                            </div>
+                                                        {% endif %}
+                                                    </div>
+
+                                                </div>
+                                            {% endfor %}
+                                        {% endif %}
+
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% include sections.html data=site.data.programme %}
+</div>

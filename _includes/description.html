@@ -1,0 +1,10 @@
+{% if include.data.description %}
+    <h4>{{ include.data.description.title }}</h4>
+    {% for item in include.data.description.paragraphs %}
+      <p>
+          {% for subitem in item.paragraph %}
+            {{subitem.line}} <br/>
+          {% endfor %}
+      </p>
+     {% endfor %}
+{% endif %}

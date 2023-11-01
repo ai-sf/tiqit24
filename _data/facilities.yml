@@ -1,0 +1,61 @@
+
+cards:
+    - name: "Hosts"
+      zoom: true
+      items:
+        - img: img/facilities/trento.jpg
+          title: University of Trento - Physics Department
+          descr: "The University of Trento is a recent, medium-sized university: the Department of Physics was established in 2012 after its researchers had been engaged in many key sectors for almost 40 years. During this event the University will host talks focused on the research performed in Trento about Bose-Einstein condensation and Nanosciense"
+          site: http://www.physics.unitn.it/en
+          tag: "physunitn"
+          map: https://www.google.it/maps/place/Univerit%C3%A0+degli+Studi+di+Trento+-+Dipartimento+di+Fisica/@46.0656159,11.148685,17z/data=!3m1!4b1!4m5!3m4!1s0x4782769503350cd5:0xa557831d5cbc7740!8m2!3d46.0656122!4d11.1508737
+
+        - img: img/facilities/ipc_foto_giusta.jpg
+          title: Innsbruck Physics Research Center
+          descr: "The Innsbruck Physics Research Center conducts many researches about a broad range of modern topics in physics. The Center is organized along three main research areas: Astro- and Astroparticle Physics, Ion- and Applied Physics, and Quantum Physics. The Center cooperates with many research institutions worldwide and provides a truly international environment for researchers from all over the world. "
+          site: https://www.uibk.ac.at/sp-physik/
+          tag: "uniinn"
+          map: https://www.google.it/maps/place/Technikerstra%C3%9Fe+25,+6020+Innsbruck,+Austria/@47.2650023,11.3409642,17z/data=!3m1!4b1!4m5!3m4!1s0x479d6b73fe395b3b:0x1243e7c276a525fa!8m2!3d47.2649991!4d11.3428721
+
+        - img: img/facilities/IQOQI.jpg
+          title: IQOQI (Institute for Quantum Optics and Quantum Information)
+          descr: "The Institute for Quantum Optics and Quantum Information (IQOQI) of the Austrian Academy of Sciences dedicates its work to theoretical and experimental basic research in the areas of quantum optics and quantum information science. Internationality, worldwide networking and highly actual research topics characterize the institute's work. A particular concern of the institute is the sustainable advancement of young academics, and together with the University of Innsbruck, their integration into the research and teaching program."
+          site: https://iqoqi.at/en/
+          tag: "iqoqi"
+          map: https://www.google.it/maps/place/IQOQI+-+Innsbruck/@47.2636136,11.3436033,17z/data=!3m1!4b1!4m5!3m4!1s0x479d6b75b4421ff9:0x8e255220c56f4ca1!8m2!3d47.26361!4d11.345792
+
+        - img: img/facilities/fbk.jpg
+          title: FBK (Fondazione Bruno Kessler)
+          tag: "fbk"
+          descr: "Fondazione Bruno Kessler is a research non-profit public interest entity. Just across the street from the Physics Department of Trento, it is ranked at the 1st place for scientific excellence within 3 different subject areas (ICT, History and Sociology) in Italy. During our event we will have the opportunity to visit this reserch center."
+          site: https://www.fbk.eu/en/
+          map: https://www.google.it/maps/place/Fondazione+Bruno+Kessler+_+Polo+Scientifico/@46.0670962,11.1492215,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xb42c31a4b5463d3f!8m2!3d46.0670377!4d11.1514664
+
+    - name: "Accomodation"
+      zoom: true
+      items:
+      - img: img/facilities/hotel_trento.jpeg
+        title: Hotel Everest
+        tag: "hosteltrento"
+        descr: "Accomodation in Trento will be provided at the Hotel Everest, Corso degli Alpini, 14, 38121 Trento TN"
+        site: "http://www.hoteleverest.it/"
+        map: "https://www.google.com/maps/place/Hotel+Everest+con+Ristorante+e+Pizzeria+a+Trento+per+famiglie+vicino+al+Muse+di+Trento+-+Soggiorni+in+Business+Hotel+Trento/@46.078476,11.1161149,17z/data=!3m1!4b1!4m8!3m7!1s0x478271304ee24c1b:0xc0cc67e069370a81!5m2!4m1!1i2!8m2!3d46.078495!4d11.1183809"
+      - img: img/facilities/youth_hostel_innsbruck.jpg
+        title: Youth Hostel Innsbruck
+        tag: "hotel_innsbruck"
+        descr: "Accomodation in Innsbruck will be provided at the Youth Hotel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria."
+        site: "https://www.youth-hostel-innsbruck.at/en/"
+        map: "https://goo.gl/maps/qCYfcrTfhv5JqjP16"
+
+    - name: "Research Groups"
+      zoom: false
+      size: "small"
+      items:
+        - img: img/facilities/bec.jpg
+          title: "BEC"
+          tag: "bec"
+          site: "http://bec.science.unitn.it/"
+        - img: img/facilities/nanolab.jpg
+          title: "NanoLab"
+          tag: "nanolab"
+          site: "http://nanolab.physics.unitn.it/"

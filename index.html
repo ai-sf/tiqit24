@@ -1,0 +1,76 @@
+---
+layout: home
+script: home.js
+---
+
+
+<div class="slider fullscreen" id="slider-home">
+    <div id="banner-description">
+        <img src="{{site.url}}/{{site.data.home.logo}}" id="site-logo">
+        <div>{{site.data.home.longname}}</div>
+    </div>
+    <div id="gradient-nav"></div>
+    <div id="chevron-banner"><i class="material-icons">keyboard_arrow_down</i></div>
+    <ul class="slides">
+     {% for img in site.data.home.slideshow %}
+      <li>
+        <img src="{{site.url}}/{{img.img}}" alt="{{img.alt}}">
+      </li>
+       {% endfor%}
+    </ul>
+  </div>
+
+
+<div class="no-pad-top" id="index-page">
+  <div class="container">
+    <!--   Icon Section   -->
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="medium material-icons custom1-text">supervisor_account</i></h2>
+            <h2 class="center">Who</h2>
+            <p class="light">
+                {{ site.data.home.who.text }}</p>
+                {% if site.data.home.who.subpoints %}
+                <ul class="dashed light">
+                    {% for x in site.data.home.who.subpoints %}
+                        <li>{{x.text}}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="medium material-icons custom1-text">today</i></h2>
+            <h2 class="center">When</h2>
+            <p class="light">{{ site.data.home.when }}</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center"><i class="medium material-icons custom1-text">location_on</i></h2>
+            <h2 class="center">Where</h2>
+            <p class="light">{{ site.data.home.where }}</p>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- paragraph -->
+    <div class="section">
+      <div class="row">
+        <div class="col s8 offset-s2">
+          <div class="icon-block">
+            <h3 class="center"><i class="medium material-icons custom1-text">send</i></h3>
+            <p class="center light">{{ site.data.home.paragraph }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
