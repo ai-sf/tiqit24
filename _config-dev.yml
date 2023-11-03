@@ -4,7 +4,7 @@
 #url: "/" # the base hostname & protocol for your site
 title: "Tiqit"
 description: "Tiqit"
-url: "https://ai-sf.it/tiqit23"
+url: "https://ai-sf.it/tiqit24"
 destination: ../site/
 locale: "it"
 

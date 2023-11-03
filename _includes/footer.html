@@ -20,6 +20,7 @@
           {% for item in site.data.footer.connect %}
 	        <li>
             <a class="white-text" href="{{item.url}}" target="_blank"><img src="{{site.url}}/{{item.img}}"></a>
+            <a class="white-text" href="{{item.url}}" target="_blank">{{ item.name }}</a>
           </li>
 	        {% endfor %}
         </ul>

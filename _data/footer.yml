@@ -15,8 +15,11 @@ connect:
   # - name: Facebook
   #   url: https://www.facebook.com/AisfTrento/
   #   img: "img/fb_logo.png"
-  - name: Instagram
+  - name: Trento AISF
     url: https://instagram.com/aisftrento/
+    img: "img/ig_logo3.png"
+  - name: AISF
+    url: https://instagram.com/aisf_fisica/
     img: "img/ig_logo3.png"
 
 creator:
