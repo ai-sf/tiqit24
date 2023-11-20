@@ -31,15 +31,15 @@ cards:
           site: https://www.fbk.eu/en/
           map: https://www.google.it/maps/place/Fondazione+Bruno+Kessler+_+Polo+Scientifico/@46.0670962,11.1492215,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xb42c31a4b5463d3f!8m2!3d46.0670377!4d11.1514664
 
-    - name: "Accomodation"
+    - name: "Accommodation"
       zoom: true
       items:
-      - img: img/facilities/hotel_trento.jpeg
-        title: Hotel Everest
+      - img: img/accomodation/giovane-europa.jpg
+        title: Ostello di Trento
         tag: "hosteltrento"
-        descr: "Accomodation in Trento will be provided at the Hotel Everest, Corso degli Alpini, 14, 38121 Trento TN"
-        site: "http://www.hoteleverest.it/"
-        map: "https://www.google.com/maps/place/Hotel+Everest+con+Ristorante+e+Pizzeria+a+Trento+per+famiglie+vicino+al+Muse+di+Trento+-+Soggiorni+in+Business+Hotel+Trento/@46.078476,11.1161149,17z/data=!3m1!4b1!4m8!3m7!1s0x478271304ee24c1b:0xc0cc67e069370a81!5m2!4m1!1i2!8m2!3d46.078495!4d11.1183809"
+        descr: "Accommodation in Trento will be provided at the Ostello di Trento, Via Torre Vanga 11, 38122 Trento"
+        site: "https://www.ostelloditrento.it/"
+        map: "https://www.google.com/maps/place/Ostello+Trento+-+Giovane+Europa/@46.0701673,11.1166207,17z/data=!3m1!4b1!4m9!3m8!1s0x4782714a06f7cc5b:0xe6a654998da8fc81!5m2!4m1!1i2!8m2!3d46.0701673!4d11.1191956!16s%2Fg%2F1tvt9656?entry=ttu"
       - img: img/facilities/youth_hostel_innsbruck.jpg
         title: Youth Hostel Innsbruck
         tag: "hotel_innsbruck"

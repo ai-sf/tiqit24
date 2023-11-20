@@ -5,10 +5,10 @@ description:
             - line: "The Trento-Innsbruck Quantum Information Tour is finally coming back!<br>The event will have a focus on Bose-Einstein Condensation, Nanoscience, Quantum Optics and Quantum Information. The language of the talks will be English."
             - line: "Students will be given lectures on forefront theoretical and experimental research in this fields by academics and prominent figures in Trento and Innsbruck environment."
         - paragraph:
-            - line: "The event will start in Trento with the talks of the University BEC group and the visit to its labs."
-            - line: "On Tuesday students will be hosted in the morning by Bruno Kessler Foundation and in the afternoon will be guided through the nanoscience labs."
-            - line: "The following day participants will move to Innsbruck to visit the Institute for Quantum Optics and Quantum Information."
-            - line: "The morning of the final day will be spent at the Physics Department of Innsbruck University. After lunch a private bus will take to Trento participants who need to return there."
+            - line: "The event will start in Innsbruck with ..."
+            # - line: "On Tuesday students will be hosted in the morning by Bruno Kessler Foundation and in the afternoon will be guided through the nanoscience labs."
+            # - line: "The following day participants will move to Innsbruck to visit the Institute for Quantum Optics and Quantum Information."
+            # - line: "The morning of the final day will be spent at the Physics Department of Innsbruck University. After lunch a private bus will take to Trento participants who need to return there."
         - paragraph:
             - line: "You can find the detailed program below, which will be constantly updated"
 
@@ -16,8 +16,8 @@ last_update: 21/02/2023
 
 schedule:
   - day: "Monday"
-    date: "27/02/2023"
-    location: "Trento"
+    date: "19/02/2024"
+    location: "Innsbruck"
     activity:
       - hour: "11:00"
         name: "Open cerimony"
@@ -108,8 +108,8 @@ schedule:
             tag: "TBD"
 
   - day: "Tuesday"
-    date: "28/02/2023"
-    location: "Trento"
+    date: "20/02/2024"
+    location: "Innsbruck"
     activity:
       - hour: "9:00"
         name: "Plenary lecture"
@@ -208,8 +208,8 @@ schedule:
         
         
   - day: "Wednesday"
-    date: "01/03/2023"
-    location: "Innsbruck"
+    date: "21/02/2024"
+    location: "Innsbruck/Trento"
     activity:
       - hour: "6:30"
         name: "Check out and departure from Trento"
@@ -298,8 +298,106 @@ schedule:
 
 
   - day: "Thursday"
-    date: "02/03/2023"
-    location: "Innsbruck"
+    date: "22/02/2024"
+    location: "Trento"
+    activity:
+      - hour: "09:00"
+        name: "Plenary lectures"
+        location:
+            name: "University of Innsbruck"
+            tag: "uniinn"
+            room: "Room TBD"
+        subactivities: 
+            -   title: "Form Circuits to Quantum Circuits. How to build superconducting Qubits"
+                people:
+                    name: "prof. Gherard Kirchmair"
+                    tag: "kirchmair"
+            -   title: "Quantum Optics and Spectroscopy"
+                people:
+                    name: "dr. Christian Roos, Senior Scientist"
+                    tag: "roos"
+      - hour: "10:00"
+        name: "Coffee break"
+        location:
+            name: "University of Innsbruck"
+            tag: "uniinn"
+            room: "Room TBD"
+      - hour: "10:30"
+        name: "University Lab tour (Part II)"
+        location:
+            name: "IQOQI"
+            tag: "iqoqi"
+            room: "Innsbruck Laboratories"
+      - hour: "13:00"
+        name: "Pizza lunch with the students of Innsbruck"
+        location:
+            name: "Pizzeria"
+            tag: "pizzainn"
+      - hour: "14:30"
+        name: "Open discussion"
+        location:
+            name: "University of Innsbruck"
+            tag: "uniinn"
+            room: "Room TBD"
+        people: 
+            name: "prof. Ferlaino"
+            tag: "ferlaino"
+      - hour: "16:00"
+        name: "Bus to Trento"
+        details: none
+
+  - day: "Friday"
+    date: "23/02/2024"
+    location: "Trento"
+    activity:
+      - hour: "09:00"
+        name: "Plenary lectures"
+        location:
+            name: "University of Innsbruck"
+            tag: "uniinn"
+            room: "Room TBD"
+        subactivities: 
+            -   title: "Form Circuits to Quantum Circuits. How to build superconducting Qubits"
+                people:
+                    name: "prof. Gherard Kirchmair"
+                    tag: "kirchmair"
+            -   title: "Quantum Optics and Spectroscopy"
+                people:
+                    name: "dr. Christian Roos, Senior Scientist"
+                    tag: "roos"
+      - hour: "10:00"
+        name: "Coffee break"
+        location:
+            name: "University of Innsbruck"
+            tag: "uniinn"
+            room: "Room TBD"
+      - hour: "10:30"
+        name: "University Lab tour (Part II)"
+        location:
+            name: "IQOQI"
+            tag: "iqoqi"
+            room: "Innsbruck Laboratories"
+      - hour: "13:00"
+        name: "Pizza lunch with the students of Innsbruck"
+        location:
+            name: "Pizzeria"
+            tag: "pizzainn"
+      - hour: "14:30"
+        name: "Open discussion"
+        location:
+            name: "University of Innsbruck"
+            tag: "uniinn"
+            room: "Room TBD"
+        people: 
+            name: "prof. Ferlaino"
+            tag: "ferlaino"
+      - hour: "16:00"
+        name: "Bus to Trento"
+        details: none
+
+  - day: "Saturday"
+    date: "24/02/2024"
+    location: "Trento"
     activity:
       - hour: "09:00"
         name: "Plenary lectures"

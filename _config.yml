@@ -10,7 +10,7 @@ markdown: kramdown
 future: true
 permalink: /blog/:year/:month/:day/:title/
 destination: _site
-
+suppress_warnings: true
 
 #facebook
 fb_admins:
