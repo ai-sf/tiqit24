@@ -1,7 +1,7 @@
 text: Sponsors
 
 img: img/sponsor4.png
-mail:  esecutivo@ai-sf.it
+mail:  trento@ai-sf.it
 
 slideshow:
   - img: img/slide/lampo.jpg
@@ -21,9 +21,6 @@ cards:
         - title: "Q@TN"
           site: "https://www.quantumtrento.eu/"
           img: "img/sponsors/Qattn.jpg"
-        #- title: "Italien-Zentrum"
-        #  site: "https://www.uibk.ac.at/italienzentrum/index.html.it"
-        #  img: "img/sponsors/logoitalienzentrum.jpg"
         #- title: "Innsbruck Physics Research Center"
         #  site: "https://www.uibk.ac.at/sp-physik/"
         #  img: "img/sponsors/innsbruckphys.jpg"
@@ -39,6 +36,10 @@ cards:
         - title: "Italien-Zentrum"
           site: "https://www.uibk.ac.at/italienzentrum/index.html.it"
           img: "img/sponsors/itzentrum.jpg"
-        - title: "IAPS"
-          site: "https://www.iaps.info/"
-          img: "img/sponsors/iaps-logo (1).png"
+        # - title: "IAPS"
+        #   site: "https://www.iaps.info/"
+        #   img: "img/sponsors/iaps-logo.png"
+        - title: "TIFPA - INFN"
+          site: "https://www.tifpa.infn.it/"
+          img: "img/sponsors/tifpa.png"
+          
