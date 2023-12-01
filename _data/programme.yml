@@ -17,106 +17,159 @@ description:
 last_update: 22/11/2023
 
 schedule:
+  - day: "Sunday"
+    date: "18/02/2024"
+    location: "Innsbruck"
+    activity:
+      - hour: "18:00"
+        name: "Welcome ceremony (drinks and snacks)"
+        location:
+            name: "Technik"
+            tag: "technik"
   - day: "Monday"
     date: "19/02/2024"
     location: "Innsbruck"
     activity:
-      - hour: "11:00"
-        name: "Open cerimony"
+      - hour: "9:00"
+        name: "Plenary lectures"
         location:
-            name: "Physics Department"
-            tag: "physunitn"
-            room: "Room A101 (Aula Magna)"
+          name: "IQOQI"
+          tag: "iqoqi"
+          room: "IQOQI Schrödingersaal"
+        subactivities: 
+            - title: "Laser cooling and trapping"
+              people:
+                name: "prof. Rudolf Grimm"
+                tag: "grimm"
+            - title: "Dipolar Quantum Gases"
+              people:
+                name: "prof. Francesca Ferlaino"
+                tag: "ferlaino"
+      - hour: "11:00"
+        name: "Coffee Break"
+        location:
+          name: "IQOQI"
+          tag: "iqoqi"
+          room: "TBD"
+      - hour: "11:30"
+        name: "Plenary lecture"
+        location:
+          name: "IQOQI"
+          tag: "iqoqi"
+          room: "IQOQI Schrödingersaal"
+        subactivities: 
+            - title: "TBD"
+              people:
+                name: "TBD"
+                tag: "TBD"
+      - hour: "12:30"
+        name: "Lunch"
+        location:
+          name: "TechCafé/Mensa"
+          tag: "techcafe"
+          #room: "TBD"
+      - hour: "13:45"
+        name: "Group photo"
+      - hour: "14:00"
+        name: "IQOQI Lab tour (Part I)"
+        location:
+            name: "IQOQI"
+            tag: "iqoqi"
+            room: "IQOQI Laboratories" 
+      - hour: "16:30"
+        name: "Group activity"
+        location:
+            name: "City center"
+            tag: "city"
+      - hour: "19:00"
+        name: "Dinner"
+        location:
+          name: "TBD"
+          tag: "TBD"
+            
       
   - day: "Tuesday"
     date: "20/02/2024"
     location: "Innsbruck"
     activity:
-      # - hour: "8:30"
-      #   name: "Welcome at IQOQI with welcome coffee"
-      #   details: none
-      #   people:
-      #       name: "prof. Ferlaino and prof. Grimm"
-      # - hour: "9:30"
-      #   name: "IQOQI Lab tour (Part I)"
-      #   location:
-      #       name: "IQOQI"
-      #       tag: "iqoqi"
-      #       room: "IQOQI Laboratories"
-      # - hour: "11:00"
-      #   name: "Plenary lectures"
-      #   location:
-      #       name: "IQOQI"
-      #       tag: "iqoqi"
-      #       room: "Room TBD"
-      #   subactivities: 
-      #       -  title: "Dipolar Quantum Gases"
-      #          people:
-      #             name: "prof. Francesca Ferlaino"
-      #             tag: "ferlaino"
-      #       -  title: "Storingly Interacting Mixtures"
-      #          people:
-      #             name: "prof. Rudolf Grimm"
-      #             tag: "grimm"
-      #       -   title: "Quantum Mechanics XXL"
-      #           people:
-      #             name: "prof. Oriol Romero-Isart"
-      #             tag: "romero-isart"
-      # - hour: "13:00"
-      #   name: "Lunch"
-      #   location:
-      #       name: "IQOQI"
-      #       tag: "iqoqi"
-      #       room: "IQOQI Mensa"
-      # - hour: "14:30"
-      #   name: "Group Photo"
-      #   location:
-      #       name: "IQOQI"
-      #       tag: "iqoqi"
-      #       room: "Room TBD"
-      # - hour: "15:00"
-      #   name: "Plenary lectures"
-      #   location:
-      #       name: "IQOQI"
-      #       tag: "iqoqi"
-      #       room: "Room TBD"
-      #   subactivities:
-      #       -   title: "Quantum Optics and Many-Body Physics"
-      #           people:
-      #               name: "dr. Robert Ott, Postdoc"
-      #               tag: "ott"
-      #       -   title: "Quantum Optics and Quantum Information Schroedingersaal"
-      #           people:
-      #               name: "dr. Torsten Zache, Postdoc"
-      #               tag: "zache"
-      # - hour: "16:00"
-      #   name: "Coffee Break"
-      #   location:
-      #       name: "IQOQI"
-      #       tag: "iqoqi"
-      #       room: "TBD"
-      # - hour: "16:30"
-      #   name: "IQOQI Lab tour (Part II)"
-      #   location:
-      #       name: "IQOQI"
-      #       tag: "iqoqi"
-      #       room: "IQOQI Laboratories"
+      - hour: "9:00"
+        name: "Plenary lectures"
+        location:
+          name: "IQOQI"
+          tag: "iqoqi"
+          room: "IQOQI Schrödingersaal"
+        subactivities: 
+            - title: "TBD"
+              people:
+                name: "Dr. Christian Roos (AG Blatt)"
+                tag: "roos"
+            - title: "TBD"
+              people:
+                name: "TBD (AG Grimm)"
+                tag: "ferlaino"
+      - hour: "11:00"
+        name: "Coffee Break"
+        location:
+          name: "IQOQI"
+          tag: "iqoqi"
+          room: "TBD"
+      - hour: "11:30"
+        name: "Plenary lecture"
+        location:
+          name: "IQOQI"
+          tag: "iqoqi"
+          room: "IQOQI Schrödingersaal"
+        subactivities: 
+            - title: "TBD"
+              people:
+                name: "Prof. Oriol Romero-Isart"
+                tag: "romero"
+      - hour: "12:30"
+        name: "Lunch"
+        location:
+          name: "TechCafé/Mensa"
+          tag: "techcafe"
+          #room: "TBD"
+      - hour: "14:00"
+        name: "IQOQI Lab tour (Part II)"
+        location:
+            name: "IQOQI"
+            tag: "iqoqi"
+            room: "IQOQI Laboratories" 
+      - hour: "16:30"
+        name: "Meeting session with UIBK PhD students"
+        location:
+            name: "IQOQI"
+            tag: "iqoqi"
+            #room: "IQOQI Laboratories"
+      
+    
       # - hour: "19:00"
       #   name: "Check in at the hotel"
       #   location:
       #       name: "Hotel Jugendherberge"
       #       tag: "hotel_innsbruck"
-      # - hour: "20:30"
-      #   name: "Dinner"
-      #   location:
-      #       name: "Elfriede"
-      #       tag: "resinnsbruck"
       
   - day: "Wednesday"
     date: "21/02/2024"
     location: "Innsbruck/Trento"
     activity:
-      - hour: "15:00"
+      - hour: "9:00"
+        name: "Plenary lectures"
+        location:
+          name: "IQOQI"
+          tag: "iqoqi"
+          room: "IQOQI Schrödingersaal"
+        subactivities: 
+            - title: "TBD"
+              people:
+                name: "Prof. Gerhard Kirchmair"
+                tag: "kirchmair"
+            - title: "TBD"
+              people:
+                name: "Prof. Hannes Pichler"
+                tag: "pichler"
+      - hour: "11:00"
         name: "Departure from Innsbruck"
       - hour: "18:00"
         name: "Check in at the hostel"
