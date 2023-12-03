@@ -6,8 +6,8 @@
   url:  "registration"
 - text: "Sponsors"
   url: "sponsors"
-- text: "Transportation"
-  url: "transportation"
+# - text: "Transportation"
+#   url: "transportation"
 - text: "AISF"
   icon: "public"
   url: http://www.ai-sf.it

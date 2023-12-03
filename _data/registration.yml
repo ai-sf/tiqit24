@@ -17,9 +17,8 @@ sections:
         - text: "Note: if you are a Innsbruck University student, you automatically became a IAPS member."
         - text: "35 places are available."
           subpoints:
-                 - text: "The selected candidates will have to cover a participation fee of €130."
-                 - text: "?? spots will be assigned to Trento Local Committee members who will be able to access to the event with a reduced fee (without accomodation in Trento) of 40€."
-                 #- text: "10 spots will be assigned to University of Innsbruck students."
+                 - text: "The selected candidates will have to cover a participation fee of €100."
+                 - text: "Some spots will be assigned to Trento Local Committee members who will be able to access to the event with a reduced fee (without accomodation in Trento) of 40€."
         - text: "Due to the level of the program, priority will be given to students who have been attending at least the third year of bachelor and who possess a basic knowledge of Quantum Physics."
         - text: "The main criteria will be first come, first served. [motivation letter?]"
         - text: "Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time."

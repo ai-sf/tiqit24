@@ -7,7 +7,7 @@ description:
             - line: "The event will have a focus on Bose-Einstein Condensation, Nanoscience, Quantum Optics and Quantum Information. The language of the talks will be English."
             - line: "Students will be given lectures on forefront theoretical and experimental research in this fields by academics and prominent figures in Trento and Innsbruck environment."
         - paragraph:
-            - line: "The event will start in Innsbruck with ..."
+            #- line: "The event will start in Innsbruck with ..."
             # - line: "On Tuesday students will be hosted in the morning by Bruno Kessler Foundation and in the afternoon will be guided through the nanoscience labs."
             # - line: "The following day participants will move to Innsbruck to visit the Institute for Quantum Optics and Quantum Information."
             # - line: "The morning of the final day will be spent at the Physics Department of Innsbruck University. After lunch a private bus will take to Trento participants who need to return there."
@@ -176,8 +176,8 @@ schedule:
         location:
             name: "Ostello Trento"
             tag: "ostello-trento"
-      - hour: "19:00"
-        name: "Free dinner and night"  
+      #- hour: "19:00"
+      #  name: "Free dinner and night"  
 
       
   - day: "Thursday"
@@ -366,14 +366,22 @@ sections:
     - text: "Participation fee is different whether you need the accommodation in Trento:"
       subpoints:
         - text: "Fee is 40€ without accomodation in Trento"
-        - text: "Fee is 130€ with included accomodation in Innsbruck for the night of Monday and Tuesday and in Trento for the nights of Wednesday, Thursday and Friday."
-    - text: "Such fee will cover Thursday's and Friday's lunches and dinners, all breakfasts, local transportation in Trento, the train to Innsbruck and the accomodation in Innsbruck and Trento"
-    - text: "Participants who need to arrive and sleep in Innsbruck on Sunday 18th, and/or to leave from Trento on Sunday 25th, can contact the Organising Committee, who will help find a suitable accomodation for the extra night(s)."
+        - text: "Fee is 100€ with included accomodation in Innsbruck for the nights of Sunday, Monday and Tuesday and in Trento for the nights of Wednesday, Thursday and Friday."
+    - text: "Such fee will cover:" 
+      subpoints:
+        - text: "Accomodation in Innsbruck and Trento"
+        - text: "Lunches of Monday 19th, Tuesday 20th, Thursday 22nd and Friday 23rd"
+        - text: "Dinners of Monday 19th, Thursday 22nd and Friday 23rd"
+        - text: "All breakfasts"
+        - text: "Local transportation in Trento"
+        - text: "Bus transportation from Innsbruck to Trento"
+    - text: "Participants who need to arrive and sleep in Innsbruck on Saturday 17th, and/or to leave from Trento on Sunday 25th, can contact the Organising Committee, who will help find a suitable accomodation for the extra night(s)."
     - text: "Please notice that participation fees <b>does not cover</b> the following:"
       subpoints:
         - text: "Journeys to Innsbruck and from Trento to arrive at the event and leave once it is concluded"
-        - text: "."
+        - text: "Lunches and dinners not included in the programme."
         - text: "Insurance"
+        - text: "Everything else not included in: 'such fee will cover'"
     - text: "Note: if you are Italian and you are not an AISF member yet you can become an AISF member at <a href='https://ai-sf.it/iscrizione/'>this</a> link."
     - text: "Note: if you are not Italian and you are not an IAPS member, please contact your National Committee for your IAPS registration."
     - text: "Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time."
