@@ -27,3 +27,11 @@ creator:
   #  mail: roberto.ciccarelli@ai-sf.it
   - name: Giorgio Micaglio
     mail: giorgio.micaglio@studenti.unitn.it
+
+images:
+  - link: "img/organizers/aisf_logo.png"
+    shape: "rect"
+  - link: "img/organizers/trento_logo.png"
+    shape: "rect"
+  - link: "img/organizers/TAUT_logo.png"
+    shape: "rect"

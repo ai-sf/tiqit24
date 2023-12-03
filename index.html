@@ -74,3 +74,13 @@ script: home.js
 
   </div>
 </div>
+
+<div class="container">
+  <div class="row" style="text-align:center; align-items: center;">
+    
+      {% for image in site.data.footer.images %}
+        <img class="{{image.shape}}" src="{{image.link}}" style="width:25%; display:inline-block; margin-right:10px"><img>
+      {% endfor %}
+    
+  </div>
+</div>
