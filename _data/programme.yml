@@ -12,7 +12,7 @@ description:
             # - line: "The following day participants will move to Innsbruck to visit the Institute for Quantum Optics and Quantum Information."
             # - line: "The morning of the final day will be spent at the Physics Department of Innsbruck University. After lunch a private bus will take to Trento participants who need to return there."
         - paragraph:
-            - line: "You can find the detailed program below, which is subject to change and will be constantly updated."
+            - line: "You can find the detailed program below, <b>which is subject to change and will be constantly updated</b>."
 
 last_update: 22/11/2023
 
@@ -365,16 +365,17 @@ sections:
     - text: "In order to sign up for the event you must be an AISF or IAPS member"
     - text: "Participation fee is different whether you need the accommodation in Trento:"
       subpoints:
-        - text: "Fee is 40€ without accomodation in Trento"
-        - text: "Fee is 100€ with included accomodation in Innsbruck for the nights of Sunday, Monday and Tuesday and in Trento for the nights of Wednesday, Thursday and Friday."
+        - text: "Fee is less or equal to 50€ without accomodation in Trento"
+        - text: "Fee is less or equal to 130€ with included accomodation in Innsbruck for the nights of Sunday, Monday and Tuesday and in Trento for the nights of Wednesday, Thursday and Friday."
     - text: "Such fee will cover:" 
       subpoints:
         - text: "Accomodation in Innsbruck and Trento"
-        - text: "Lunches of Monday 19th, Tuesday 20th, Thursday 22nd and Friday 23rd"
-        - text: "Dinners of Monday 19th, Thursday 22nd and Friday 23rd"
+        - text: "Lunches included in the programme above"
+        - text: "Dinners included in the programme above"
         - text: "All breakfasts"
         - text: "Local transportation in Trento"
         - text: "Bus transportation from Innsbruck to Trento"
+        - text: "Welcome bag"
     - text: "Participants who need to arrive and sleep in Innsbruck on Saturday 17th, and/or to leave from Trento on Sunday 25th, can contact the Organising Committee, who will help find a suitable accomodation for the extra night(s)."
     - text: "Please notice that participation fees <b>does not cover</b> the following:"
       subpoints:
