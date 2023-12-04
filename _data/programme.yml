@@ -196,31 +196,31 @@ schedule:
           name: "Physics Department"
           tag: "physunitn"
           room: "Room TBD"
-        subactivities:
-          - title: "Quantum Monte Carlo and ultracold atoms"
-            people:
-              name: "prof. Stefano Giorgini"
-              tag: "giorgini"
-          - title: "Multicomponent gases"
-            people:
-              name: "dr. Alessio Recati, Senior Researcher"
-              tag: "recati"
-          - title: "Analog gravity in fluids of atoms or light"
-            people:
-              name: "dr. Iacopo Carusotto, Senior Director"
-              tag: "carusotto"
-          - title: "Theory of Quantum technologies: from quantum simulation to optimization"
-            people:
-              name: "prof. Philipp Hauke"
-              tag: "hauke"
-          - title: "Engineered and hybrid quantum systems"
-            people:
-              name: "dr. Gianluca Rastelli, Researcher"
-              tag: "rastelli"
-          - title: "Open Quantum Systems: from cold atoms to quantum computing"
-            people:
-              name: "dr. Alberto Biella, Researcher"
-              tag: "biella"
+        # subactivities:
+        #   - title: "Quantum Monte Carlo and ultracold atoms"
+        #     people:
+        #       name: "prof. Stefano Giorgini"
+        #       tag: "giorgini"
+        #   - title: "Multicomponent gases"
+        #     people:
+        #       name: "dr. Alessio Recati, Senior Researcher"
+        #       tag: "recati"
+        #   - title: "Analog gravity in fluids of atoms or light"
+        #     people:
+        #       name: "dr. Iacopo Carusotto, Senior Director"
+        #       tag: "carusotto"
+        #   - title: "Theory of Quantum technologies: from quantum simulation to optimization"
+        #     people:
+        #       name: "prof. Philipp Hauke"
+        #       tag: "hauke"
+        #   - title: "Engineered and hybrid quantum systems"
+        #     people:
+        #       name: "dr. Gianluca Rastelli, Researcher"
+        #       tag: "rastelli"
+        #   - title: "Open Quantum Systems: from cold atoms to quantum computing"
+        #     people:
+        #       name: "dr. Alberto Biella, Researcher"
+        #       tag: "biella"
       - hour: "10:30"
         name: "Coffee break"
         location: 
@@ -269,19 +269,19 @@ schedule:
           name: "Physics Department"
           tag: "physunitn"
           room: "Room TBD"
-        subactivities:
-          - title: "Introduction to the Nanoscience Laboratory and its activity"
-            people:
-              name: "prof. Lorenzo Pavesi"
-              tag: "pavesi"
-          - title: "Quantum photon sources"
-            people:
-              name: "prof. Stefano Azzini"
-              tag: "azzini"
-          - title: "Quantum security with single particle entanglement"
-            people:
-              name: "dr. Nicolò Leone, Postdoc"
-              tag: "leone"
+        # subactivities:
+        #   - title: "Introduction to the Nanoscience Laboratory and its activity"
+        #     people:
+        #       name: "prof. Lorenzo Pavesi"
+        #       tag: "pavesi"
+        #   - title: "Quantum photon sources"
+        #     people:
+        #       name: "prof. Stefano Azzini"
+        #       tag: "azzini"
+        #   - title: "Quantum security with single particle entanglement"
+        #     people:
+        #       name: "dr. Nicolò Leone, Postdoc"
+        #       tag: "leone"
       - hour: "10:15"
         name: "Coffee break"
         location: 
