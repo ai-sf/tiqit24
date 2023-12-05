@@ -2,10 +2,7 @@ logo: "img/logo-white.png"
 longname: "Trento Innsbruck Quantum Information Tour"
 
 who:
-    text: "35 Physics students of whom:"
-    subpoints:
-        - text: "AISF (Associazione Italiana Studenti di Fisica) members"
-        - text: "IAPS (International Association of Physics Students) members"
+    text: "35 Physics students members of AISF (Associazione Italiana Studenti di Fisica) or IAPS (International Association of Physics Students)"
 
 when: "From Sunday, February 18th to Saturday, February 24th 2024"
 
