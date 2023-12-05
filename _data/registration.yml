@@ -2,7 +2,7 @@ description:
     title: "General infos"
     paragraphs:
         - paragraph:
-            - line: "Registrations will be open from TBD<sup>th</sup> at TBD."
+            - line: "Registrations will be open from December 4<sup>th</sup> at 12:00, GTM+1."
         - paragraph:
             - line: "You can find the registration form at the bottom of this page."
             - line: "Please read the terms and conditions below. Please note that, upon registration, you will be asked for personal details (such as name, surname, date of birth, university affiliation, etc.)."
@@ -19,6 +19,7 @@ sections:
           subpoints:
                  - text: "The selected candidates will have to cover a participation fee less or equal to €130."
                  - text: "Some spots will be assigned to participants who do not need accomodation in Trento or Innsbruck, who will have to cover a participation fee less or equal to 50€."
+                 - text: "The final fee might be reduced thanks to some sponsor, but can't be raised. We'll let you know the final price before the event starts."        
         - text: "Due to the level of the program, priority will be given to students who have been attending at least the third year of bachelor and who possess a basic knowledge of Quantum Physics."
         - text: "The main criteria of selection will be the motivation letter and the basic knowledge of Quantum Physics"
         - text: "Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time."
@@ -30,19 +31,19 @@ sections:
         - text: "Only students enrolled in a university or similar institution on a physics or physics-related course, as well as up to twelve months after receiving a degree from a university are able to participate in this event. You confirm that you will be at least 18 years of age by the 3rd of December, 2022."
         - text: "You acknowledge and agree that the Organising Committee, the Italian Association of Physics Students (AISF), the International Association of Physics Students (IAPS), and the hosts of the event have no responsibility whatsoever for injuries, losses, or damages of any kind that result from your participation at the Trento Innsbruck Quantum Information Tour 2023."
         - text: "You accept the IAPS Code of Conduct."
+        - button: "PDF"
           url: "files/IAPS_Code_of_Conduct.pdf"
-          button: "PDF"
         - text: "By participating in the event you agree to be filmed, photographed, and otherwise recorded during the conference and hereby expressly grant the organizing committee, AISF and IAPS the right to use your picture, movie or any other form of media publication in contexts such as the internet, social medias, brochures, posters, informative and advertising materials. You also confirm that the information contained in this application is true and correct."
         - text: "You accept that either the Organising Committee, or the Italian Association of Physics Students (AISF), or the International Association of Physics Students (IAPS), or the hosts of the event cannot be made responsible for the content of any talk, poster, workshop, excursion or similar activity."
-        - text: "You accept that, in case of cancellation by a participant, the Organising Committee will provide a reimbursement only if a replacement for the student can be found. No reimbursement will be given for membership fees under any circumstances. If a reimbursement were to be approved, the Organising Committee will retain a total of 25% of the fee as a contribution to the expenses to the event. No reimbursement will be approved for cancellations presented after February 5th."
+        - text: "You accept that, in case of cancellation by a participant, the Organising Committee will provide a reimbursement only if a replacement for the student can be found. No reimbursement will be given for membership fees under any circumstances. If a reimbursement were to be approved, the Organising Committee will retain a total of 25% of the fee as a contribution to the expenses to the event. No reimbursement will be approved for cancellations presented after January 31th."
         - text: "The present terms and conditions are governed by the laws of the Republic of Italy."
 
     - name: "Deadlines"
       info: ""
       points:
-        - text: "The round of registration opens on December 4<sup>th</sup> (12:00, GTM+1) and closes on December 23<sup>rd</sup> (TBD, GTM+1)"
+        - text: "The round of registration opens on December 4<sup>th</sup> (12:00, GTM+1) and closes on December 23<sup>rd</sup> (10:00, GTM+1)"
         - text: "Once the registration are closed, the organizing comittee will select the participants"
-        - text: "Selected partecipants will be notified within 10 days from the registration closing, then the event fee will have to be paid in 7 days to confirm the participation"
+        - text: "Selected partecipants will be notified within 10 days from the registration closing, then the event fee will have to be paid whithin 7 days to confirm the participation"
         - text: "Students non accepted will be notified as well, and they will have the possiblity to partecipate in case spots are still free after the first payment period."
 
     - name: "Registration Form"

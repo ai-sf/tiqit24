@@ -26,6 +26,7 @@ schedule:
         location:
             name: "Technik"
             tag: "technik"
+  
   - day: "Monday"
     date: "19/02/2024"
     location: "Innsbruck"
@@ -87,7 +88,6 @@ schedule:
           name: "TBD"
           tag: "TBD"
             
-      
   - day: "Tuesday"
     date: "20/02/2024"
     location: "Innsbruck"
@@ -170,16 +170,21 @@ schedule:
                 name: "Prof. Hannes Pichler"
                 tag: "pichler"
       - hour: "11:00"
+        name: "Free time for lunch. (Might vary)"
+      - hour: "15:00"
         name: "Departure from Innsbruck"
       - hour: "18:00"
         name: "Check in at the hostel"
+      - hour: "19:00"
+        name: "Free time for dinner. (Might vary)"
+      - hour: "21:00"
+        name: "Quantum meets Trento - Talk about Quantum Physics open to everyone (Might vary)"
         location:
             name: "Ostello Trento"
             tag: "ostello-trento"
       #- hour: "19:00"
       #  name: "Free dinner and night"  
 
-      
   - day: "Thursday"
     date: "22/02/2024"
     location: "Trento"
@@ -258,7 +263,6 @@ schedule:
           name: "Location TBD"
           tag: "TBD"
 
-
   - day: "Friday"
     date: "23/02/2024"
     location: "Trento"
@@ -328,8 +332,7 @@ schedule:
         location: 
           name: "Location TBD"
           tag: "TBD"
-
-      
+  
   - day: "Saturday"
     date: "24/02/2024"
     location: "Trento"
@@ -363,18 +366,18 @@ sections:
   - name: "Partecipation fee and requirements"
     points:
     - text: "In order to sign up for the event you must be an AISF or IAPS member"
-    - text: "Participation fee is different whether you need the accommodation in Trento:"
+    - text: "Participation fee is different whether you need the accommodation:"
       subpoints:
         - text: "Fee is less or equal to 50€ without accomodation in Trento or Innsbruck"
         - text: "Fee is less or equal to 130€ with included accomodation in Innsbruck for the nights of Sunday, Monday and Tuesday and in Trento for the nights of Wednesday, Thursday and Friday."
+        - text: "The final fee might be reduced thanks to some sponsor, but can't be raised. We'll let you know the final price before the event starts."
     - text: "Such fee will cover:" 
       subpoints:
         - text: "Accomodation in Innsbruck and Trento"
-        - text: "Lunches included in the programme above"
-        - text: "Dinners included in the programme above"
+        - text: "Lunches and dinners included in the programme above. Thanks to some sponsor we might add other meals in the programme."
         - text: "All breakfasts"
         - text: "Local transportation in Trento and Innsbruck"
-        - text: "Bus transportation from Innsbruck to Trento"
+        - text: "Train transportation from Innsbruck to Trento"
         - text: "Welcome bag"
     - text: "Participants who need to arrive and sleep in Innsbruck on Saturday 17th, and/or to leave from Trento on Sunday 25th, can contact the Organising Committee, who will help find a suitable accomodation for the extra night(s)."
     - text: "Please notice that participation fees <b>does not cover</b> the following:"
