@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Sponsors
+title: Partners
 ---
 
-{% include cards.html data = site.data.sponsors %}
+{% include cards.html data = site.data.partners %}
 <div class="row">
-    {% for sponsor in site.data.sponsors.institutions %}
+    {% for partner in site.data.partners.institutions %}
         <div class="col s12 m6 l4">
           <div class="card small">
             <div class="card-image valign-wrapper">
-              <img src="{{site.url}}/{{sponsor.logo}}">
+              <img src="{{site.url}}/{{partner.logo}}">
             </div>
             <div class="card-content">
-             <a href="{{sponsor.website}}">
-                 <h4 class="custom1-text">{{sponsor.name}}</h4>
+             <a href="{{partner.website}}">
+                 <h4 class="custom1-text">{{partner.name}}</h4>
              </a>
             </div>
           </div>
@@ -25,10 +25,10 @@ title: Sponsors
   <div class="row">
     <div class="col s12">
       <h4>Support us</h4>
-      <p>If you are interested in sponsoring our events, please write an email to <a class="custom1-text" href="mailto:{{ site.data.sponsors.mail }}">this</a> email address.</p>
+      <p>If you are interested in partnering our events, please write an email to <a class="custom1-text" href="mailto:{{ site.data.partners.mail }}">this</a> email address.</p>
          <div class="slider" id="foto-eventi">
         <ul class="slides">
-          {% for slide in site.data.sponsors.slideshow %}
+          {% for slide in site.data.partners.slideshow %}
             <li>
               <img src="{{ site.url }}/{{ slide.img }}" alt="{{ slide.alt }}">
               <div class="caption left-align">
