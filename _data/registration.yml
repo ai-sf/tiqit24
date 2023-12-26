@@ -2,7 +2,8 @@ description:
     title: "General infos"
     paragraphs:
         - paragraph:
-            - line: "Registrations will be open from December 4<sup>th</sup> at 12:00, GTM+1."
+            # - line: "Registrations will be open from December 4<sup>th</sup> at 12:00, GTM+1."
+            - line: "Registrations are closed."
         - paragraph:
             - line: "You can find the registration form at the bottom of this page."
             - line: "Please read the terms and conditions below. Please note that, upon registration, you will be asked for personal details (such as name, surname, date of birth, university affiliation, etc.)."
@@ -47,4 +48,5 @@ sections:
     - name: "Registration Form"
       info: ""
       points:
-        - text: "<form><button style='background-color: #04AA6D; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;' formaction='https://bit.ly/applytiqit24' target='_blank'>Apply here</button></form>"
+        # - text: "<form><button style='background-color: #04AA6D; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;' formaction='https://bit.ly/applytiqit24' target='_blank'>Apply here</button></form>"
+        - text: "Registrations are closed."
