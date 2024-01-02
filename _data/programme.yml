@@ -196,7 +196,7 @@ schedule:
           tag: "physunitn"
           room: "Room TBD"
       - hour: "9:15"
-        name: "Plenary Lecture"
+        name: "Plenary lecture"
         location:
           name: "Physics Department"
           tag: "physunitn"
@@ -232,42 +232,18 @@ schedule:
           name: "Physics department"
           tag: "physunitn"
           room: "Room TBD"
+      - hour: "11:00"
+        name: "Plenary lecture"
+        location:
+          name: "Physics Department"
+          tag: "physunitn"
+          room: "Room TBD"
       - hour: "12:00"
         name: "Lunch at Pizza Rio"
         location: 
           name: "Pizza Rio"
           tag: "pizzario"
       - hour: "14:00"
-        name: "Quantum computing workshop (lecture)"
-        location:
-          name: "Physics department"
-          tag: "physunitn"
-          room: "Room TBD"
-      - hour: "15:00"
-        name: "Coffee break"
-        location: 
-          name: "Physics department"
-          tag: "physunitn"
-          room: "Room TBD"
-      - hour: "15:30"
-        name: "Quantum computing workshop (practice)"
-        location:
-          name: "Physics department"
-          tag: "physunitn"
-          room: "Aula PC"
-      - hour: "17:30"
-        name: "Free time"
-      - hour: "19:30"
-        name: "Dinner"
-        location: 
-          name: "Location TBD"
-          tag: "TBD"
-
-  - day: "Friday"
-    date: "23/02/2024"
-    location: "Trento"
-    activity:
-      - hour: "9:00"
         name: "Plenary lecture"
         location:
           name: "Physics Department"
@@ -286,24 +262,31 @@ schedule:
         #     people:
         #       name: "dr. Nicolò Leone, Postdoc"
         #       tag: "leone"
-      - hour: "10:15"
+      - hour: "15:30"
         name: "Coffee break"
         location: 
           name: "Physics department"
           tag: "physunitn"
           room: "Room TBD"
-      - hour: "10:45"
+      - hour: "16:00"
         name: "Plenary lecture"
         location:
           name: "Physics Department"
           tag: "physunitn"
           room: "Room TBD"
-      - hour: "12:00"
-        name: "Lunch at Rosticceria"
+      - hour: "17:30"
+        name: "Free time"
+      - hour: "19:30"
+        name: "Dinner"
         location: 
-          name: "Rosticceria di Povo"
-          tag: "rosticceria"
-      - hour: "14:00"
+          name: "Location TBD"
+          tag: "TBD"
+
+  - day: "Friday"
+    date: "23/02/2024"
+    location: "Trento"
+    activity:
+      - hour: "9:00"
         name: "Visit to BEC laboratories"
         location:
           name: "Physics department"
@@ -313,18 +296,41 @@ schedule:
             - title: "CNR-University Lab tour"
               people:
                 name: "prof. Giacomo Lamporesi, prof. Gabriele Ferrari"
-      - hour: "15:30"
+      - hour: "10:15"
         name: "Coffee break"
         location: 
           name: "Physics department"
           tag: "physunitn"
           room: "Room TBD"
-      - hour: "16:00"
+      - hour: "10:45"
         name: "Visit to NanoLabs laboratories"
         location:
           name: "NanoLabs"
           tag: "nanolabs"
           room: "Nanolabs Laboratories"
+      - hour: "12:00"
+        name: "Lunch at Rosticceria"
+        location: 
+          name: "Rosticceria di Povo"
+          tag: "rosticceria"
+      - hour: "14:00"
+        name: "Quantum computing workshop (lecture)"
+        location:
+          name: "Physics department"
+          tag: "physunitn"
+          room: "Room TBD"
+      - hour: "15:00"
+        name: "Coffee break"
+        location: 
+          name: "Physics department"
+          tag: "physunitn"
+          room: "Room TBD"
+      - hour: "15:30"
+        name: "Quantum computing workshop (practice)"
+        location:
+          name: "Physics department"
+          tag: "physunitn"
+          room: "Aula PC"
       - hour: "17:30"
         name: "Free time"
       - hour: "19:30"
