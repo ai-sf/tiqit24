@@ -176,7 +176,10 @@ schedule:
       - hour: "18:00"
         name: "Check in at the hostel"
       - hour: "19:00"
-        name: "Free time for dinner. (Might vary)"
+        name: "Dinner at Pizzium"
+        location:
+          name: "Pizzium"
+          tag: "pizzium"
       - hour: "21:00"
         name: "Quantum meets Trento - Talk about Quantum Physics open to everyone (Might vary)"
         location:
@@ -239,10 +242,10 @@ schedule:
           tag: "physunitn"
           room: "Room TBD"
       - hour: "12:00"
-        name: "Lunch at Pizza Rio"
+        name: "Lunch at Rosticceria"
         location: 
-          name: "Pizza Rio"
-          tag: "pizzario"
+          name: "Sapori di Gastronomia"
+          tag: "rosticceria"
       - hour: "14:00"
         name: "Plenary lecture"
         location:
@@ -277,10 +280,10 @@ schedule:
       - hour: "17:30"
         name: "Free time"
       - hour: "19:30"
-        name: "Dinner"
+        name: "Dinner at Rosa D'Oro"
         location: 
-          name: "Location TBD"
-          tag: "TBD"
+          name: "Ristorante Pizzeria Rosa D'Oro"
+          tag: "rosadoro"
 
   - day: "Friday"
     date: "23/02/2024"
@@ -309,10 +312,10 @@ schedule:
           tag: "nanolabs"
           room: "Nanolabs Laboratories"
       - hour: "12:00"
-        name: "Lunch at Rosticceria"
+        name: "Lunch at Pizza Rio"
         location: 
-          name: "Rosticceria di Povo"
-          tag: "rosticceria"
+          name: "Pizza Rio"
+          tag: "pizzario"
       - hour: "14:00"
         name: "Quantum computing workshop (lecture)"
         location:
@@ -334,10 +337,10 @@ schedule:
       - hour: "17:30"
         name: "Free time"
       - hour: "19:30"
-        name: "Dinner"
+        name: "Dinner at Forst"
         location: 
-          name: "Location TBD"
-          tag: "TBD"
+          name: "Forsterbräu Trento"
+          tag: "forst"
   
   - day: "Saturday"
     date: "24/02/2024"
