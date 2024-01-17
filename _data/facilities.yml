@@ -47,6 +47,30 @@ cards:
         site: "https://www.youth-hostel-innsbruck.at/en/"
         map: "https://goo.gl/maps/qCYfcrTfhv5JqjP16"
 
+    - name: "Lunch and Dinner"
+      zoom: true
+      items:
+      - img: img/facilities/food/forst.jpg
+        title: Forsterbräu Trento
+        tag: "forst"
+        map: "https://www.google.com/maps/place/Forsterbr%C3%A4u+Trento/@46.068777,11.1199339,17z/data=!3m1!4b1!4m6!3m5!1s0x4782714a94862c51:0xbdc93b074e04382c!8m2!3d46.068777!4d11.1225088!16s%2Fg%2F1z44rzr7b?entry=ttu"
+      - img: img/facilities/food/pizzario.jpg
+        title: Pizza Rio
+        tag: "pizzario"
+        map: "https://www.google.com/maps/place/Pizza+Rio/@46.0663098,11.1525224,17z/data=!3m2!4b1!5s0x478276934ff23389:0x998508c704322d31!4m6!3m5!1s0x478276934fc170bf:0x346b777a2feb2cd5!8m2!3d46.0663098!4d11.1550973!16s%2Fg%2F1tdgj3d3?entry=ttu"
+      - img: img/facilities/food/rosadoro.jpg
+        title: Pizzeria Ristorante Rosa D'Oro
+        tag: "rosadoro"
+        map: "https://www.google.com/maps/place/Pizzeria+Ristorante+Rosa+D'Oro/@46.0683468,11.1172867,17z/data=!3m1!4b1!4m6!3m5!1s0x4782714a462ee54b:0xbe7a19fbb616a7f2!8m2!3d46.0683468!4d11.1198616!16s%2Fg%2F1tdgnps8?entry=ttu"
+      - img: img/facilities/food/rosticceria.jpg
+        title: Sapori di Gastronomia
+        tag: "rosticceria"
+        map: "https://www.google.com/maps/place/Sapori+di+Gastronomia/@46.0661932,11.1524294,17z/data=!3m2!4b1!5s0x478276934ffdc3fb:0x9d017590b0d8deb9!4m6!3m5!1s0x4782769359859be1:0xe9776ce6d1824d55!8m2!3d46.0661932!4d11.1550043!16s%2Fg%2F11b6hjr86j?entry=ttu"
+      - img: img/facilities/food/pizzium.jpg
+        title: Pizzium
+        tag: "pizzium"
+        map: "https://www.google.com/maps/place/Pizzium+-+Trento/@46.0642472,11.0882127,14.4z/data=!4m10!1m2!2m1!1spizzium!3m6!1s0x4782770f93442e3f:0xa1e31a15c182d5eb!8m2!3d46.0647969!4d11.1229636!15sCgdwaXp6aXVtIgOIAQFaCSIHcGl6eml1bZIBEHBpenphX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11v0mlksn8?entry=ttu"
+
     - name: "Research Groups"
       zoom: false
       size: "small"
@@ -56,8 +80,8 @@ cards:
           tag: "bec"
           site: "http://bec.science.unitn.it/"
         - img: img/facilities/nanolab.jpg
-          title: "NanoLab"
-          tag: "nanolab"
+          title: "NanoLabs"
+          tag: "nanolabs"
           site: "http://nanolab.physics.unitn.it/"
         - title: "IQOQI"
           site: "https://www.iqoqi.at/en/"

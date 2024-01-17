@@ -184,7 +184,7 @@ schedule:
         name: "Quantum meets Trento - Talk about Quantum Physics open to everyone (Might vary)"
         location:
             name: "Ostello Trento"
-            tag: "ostello-trento"
+            tag: "hosteltrento"
       #- hour: "19:00"
       #  name: "Free dinner and night"  
 
