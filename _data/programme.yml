@@ -192,55 +192,65 @@ schedule:
     date: "22/02/2024"
     location: "Trento"
     activity:
+      # - hour: "9:00"
+      #   name: "AISF Trento Local Committee introduction"
+      #   location: 
+      #     name: "Physics Department"
+      #     tag: "physunitn"
+      #     room: "Room TBD"
       - hour: "9:00"
-        name: "AISF Trento Local Committee introduction"
-        location: 
-          name: "Physics Department"
-          tag: "physunitn"
-          room: "Room TBD"
-      - hour: "9:15"
         name: "Plenary lecture"
         location:
           name: "Physics Department"
           tag: "physunitn"
-          room: "Room TBD"
-        # subactivities:
-        #   - title: "Quantum Monte Carlo and ultracold atoms"
-        #     people:
-        #       name: "prof. Stefano Giorgini"
-        #       tag: "giorgini"
-        #   - title: "Multicomponent gases"
-        #     people:
-        #       name: "dr. Alessio Recati, Senior Researcher"
-        #       tag: "recati"
-        #   - title: "Analog gravity in fluids of atoms or light"
-        #     people:
-        #       name: "dr. Iacopo Carusotto, Senior Director"
-        #       tag: "carusotto"
-        #   - title: "Theory of Quantum technologies: from quantum simulation to optimization"
-        #     people:
-        #       name: "prof. Philipp Hauke"
-        #       tag: "hauke"
-        #   - title: "Engineered and hybrid quantum systems"
-        #     people:
-        #       name: "dr. Gianluca Rastelli, Researcher"
-        #       tag: "rastelli"
-        #   - title: "Open Quantum Systems: from cold atoms to quantum computing"
-        #     people:
-        #       name: "dr. Alberto Biella, Researcher"
-        #       tag: "biella"
+          room: "Aula A108 (Povo 1)"
+        subactivities:
+          - title: "Experiments on magnetism with superfluid spin mixtures"
+            people:
+              name: "dr. Giacomo Lamporesi, senior CNR researcher"
+              tag: "lamporesi"
+          - title: "Quantum MC methods applied to Bose mixtures"
+            people:
+              name: "prof. Stefano Giorgini, associate professor at UNITN"
+              tag: "giorgini"
+          - title: "Simulating black-hole physics in a lab with ultracold atoms"
+            people:
+              name: "Anna Berti, PhD student at UNITN"
+              tag: "berti"
+          - title: "Supersolids on a ring"
+            people:
+              name: "Marija Šindik, PhD student at UNITN"
+              tag: "sindik"
       - hour: "10:30"
         name: "Coffee break"
         location: 
           name: "Physics department"
           tag: "physunitn"
-          room: "Room TBD"
+          room: "Aula multifunzionale (Povo 1)"
       - hour: "11:00"
         name: "Plenary lecture"
         location:
           name: "Physics Department"
           tag: "physunitn"
-          room: "Room TBD"
+          room: "Aula A108 (Povo 1)"
+        subactivities:
+          - title: "Open quantum matter"
+            people:
+              name: "dr. Alberto Biella, CNR researcher"
+              tag: "biella"
+          - title: "Quantum devices for simulation and computation"
+            people:
+              name: "dr. Soumik Bandyopadhyay, postdoc at UNITN"
+              tag: "bandy"
+          - title: "Quantum ElectroDynamics in solid-state nanosystems"
+            people:
+              name: "dr. Gianluca Rastelli, CNR researcher"
+              tag: "rastelli"
+          - title: "Superfluids of light"
+            people:
+              name: "dr. Iacopo Carusotto, research director, CNR"
+              tag: "carusotto"
+
       - hour: "12:00"
         name: "Lunch at Rosticceria"
         location: 
@@ -251,32 +261,37 @@ schedule:
         location:
           name: "Physics Department"
           tag: "physunitn"
-          room: "Room TBD"
-        # subactivities:
-        #   - title: "Introduction to the Nanoscience Laboratory and its activity"
-        #     people:
-        #       name: "prof. Lorenzo Pavesi"
-        #       tag: "pavesi"
-        #   - title: "Quantum photon sources"
-        #     people:
-        #       name: "prof. Stefano Azzini"
-        #       tag: "azzini"
-        #   - title: "Quantum security with single particle entanglement"
-        #     people:
-        #       name: "dr. Nicolò Leone, Postdoc"
-        #       tag: "leone"
+          room: "Aula A108 (Povo 1)"
+        subactivities:
+          - title: "Introduction to the Nanoscience Laboratory and its activity"
+            people:
+              name: "prof. Lorenzo Pavesi, full professor"
+              tag: "pavesi"
+          - title: "Quantum photon sources"
+            people:
+              name: "prof. Stefano Azzini, associate professor"
+              tag: "azzini"
       - hour: "15:30"
         name: "Coffee break"
         location: 
           name: "Physics department"
           tag: "physunitn"
-          room: "Room TBD"
+          room: "Aula multifunzionale (Povo 1)"
       - hour: "16:00"
         name: "Plenary lecture"
         location:
           name: "Physics Department"
           tag: "physunitn"
-          room: "Room TBD"
+          room: "Aula A108 (Povo 1)"
+        subactivities:
+          - title: "Programmable silicon photonics circuits for quantum computing and simulation"
+            people:
+              name: "dr. Alessio Baldazzi, postdoc"
+              tag: "baldazzi"
+          - title: "A photonic kernel for quantum machine learning"
+            people:
+              name: "dr. Nicolò Leone, postdoc"
+              tag: "leone"
       - hour: "17:30"
         name: "Free time"
       - hour: "19:30"
@@ -289,51 +304,51 @@ schedule:
     date: "23/02/2024"
     location: "Trento"
     activity:
-      - hour: "9:00"
+      - hour: "8:30"
         name: "Visit to BEC laboratories"
         location:
           name: "Physics department"
           tag: "physunitn"
-          room: "CNR-University Laboratories"
-          subactivities:
-            - title: "CNR-University Lab tour"
-              people:
-                name: "prof. Giacomo Lamporesi, prof. Gabriele Ferrari"
-      - hour: "10:15"
+          room: "CNR-University Laboratories (Povo 0)"
+        subactivities:
+          - title: "CNR-University Lab tour"
+            people:
+              name: "dr. Alessandro Zenesini, dr. Riccardo Cominotti, Chiara Rogora, Diego Andreoni"
+      - hour: "10:00"
         name: "Coffee break"
         location: 
           name: "Physics department"
           tag: "physunitn"
-          room: "Room TBD"
-      - hour: "10:45"
+          room: "Aula Ex-Tesi (Povo 0)"
+      - hour: "10:30"
         name: "Visit to NanoLabs laboratories"
         location:
           name: "NanoLabs"
           tag: "nanolabs"
-          room: "Nanolabs Laboratories"
+          room: "Nanolabs Laboratories (Povo 0)"
       - hour: "12:00"
         name: "Lunch at Pizza Rio"
         location: 
           name: "Pizza Rio"
           tag: "pizzario"
-      - hour: "14:00"
+      - hour: "13:30"
         name: "Quantum computing workshop (lecture)"
         location:
           name: "Physics department"
           tag: "physunitn"
-          room: "Room TBD"
+          room: "Aula B108 (Povo 2)"
       - hour: "15:00"
         name: "Coffee break"
         location: 
           name: "Physics department"
           tag: "physunitn"
-          room: "Room TBD"
+          room: "Atrio (Povo 2)"
       - hour: "15:30"
         name: "Quantum computing workshop (practice)"
         location:
           name: "Physics department"
           tag: "physunitn"
-          room: "Aula PC"
+          room: "Aula PC B106 (Povo 2)"
       - hour: "17:30"
         name: "Free time"
       - hour: "19:30"
@@ -351,7 +366,7 @@ schedule:
         location:
           name: "Physics Department"
           tag: "physunitn"
-          room: "TBD"
+          room: "Aula A209 and Aula A210 (Povo 1)"
       - hour: "10:00"
         name: "FBK plenary lectures"
         location:
