@@ -24,8 +24,8 @@ schedule:
       - hour: "18:00"
         name: "Welcome ceremony (drinks and snacks)"
         location:
-            name: "Technik"
-            tag: "technik"
+            name: "IQOQI"
+            tag: "iqoqi"
   
   - day: "Monday"
     date: "19/02/2024"
@@ -170,23 +170,24 @@ schedule:
                 name: "Prof. Hannes Pichler"
                 tag: "pichler"
       - hour: "11:00"
-        name: "Free time for lunch. (Might vary)"
+        name: "Free time for Lunch (might vary)"
       - hour: "15:00"
         name: "Departure from Innsbruck"
       - hour: "18:00"
         name: "Check in at the hostel"
+        location:
+          name: "Ostello Trento"
+          tag: "hosteltrento"
       - hour: "19:00"
         name: "Dinner at Pizzium"
         location:
           name: "Pizzium"
           tag: "pizzium"
       - hour: "21:00"
-        name: "Quantum meets Trento - Talk about Quantum Physics open to everyone (Might vary)"
+        name: "<b>Cosa (non) è la Meccanica Quantistica</b> - Talk about Quantum Physics open to everyone"
         location:
-            name: "Ostello Trento"
-            tag: "hosteltrento"
-      #- hour: "19:00"
-      #  name: "Free dinner and night"  
+          name: "Fondazione Caritro"
+          tag: "caritro" 
 
   - day: "Thursday"
     date: "22/02/2024"
