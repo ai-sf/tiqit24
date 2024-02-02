@@ -338,6 +338,22 @@ schedule:
           name: "Physics department"
           tag: "physunitn"
           room: "Aula B108 (Povo 2)"
+        subactivities:
+          - title: "Quantum Simulation for Nuclear Physics"
+            people:
+              name: "dr. Alessandro Roggero"
+          - title: "Pulse level control of quantum computers"
+            people:
+              name: "prof. Francesco Pederiva"
+          - title: "TBD"
+            people:
+              name: "Alberto Bottarelli"
+          - title: "TBD"
+            people:
+              name: "Julius Mildenberg"
+          - title: "Introduction to quantum circuits"
+            people:
+              name: "dr. Soumik Bandyopadhyay"
       - hour: "15:00"
         name: "Coffee break"
         location: 
@@ -350,6 +366,10 @@ schedule:
           name: "Physics department"
           tag: "physunitn"
           room: "Aula PC B106 (Povo 2)"
+        subactivities:
+          - title: "Hands on session"
+            people:
+              name: "dr. Soumik Bandyopadhyay"
       - hour: "17:30"
         name: "Free time"
       - hour: "19:30"
