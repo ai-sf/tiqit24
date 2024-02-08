@@ -59,30 +59,28 @@ schedule:
           tag: "iqoqi"
           room: "IQOQI Schrödingersaal"
         subactivities: 
-            - title: "TBD"
+            - title: "Simulating exotic phases of quantum gases"
               people:
-                name: "TBD"
-                tag: "TBD"
+                name: "ass. prof. Russel Bisset"
+                tag: "bisset"
       - hour: "12:30"
-        name: "Lunch"
+        name: "Lunch and open discussion with prof. Ferlaino"
         location:
           name: "TechCafé/Mensa"
           tag: "techcafe"
           #room: "TBD"
-      - hour: "13:45"
-        name: "Group photo"
-      - hour: "14:00"
+      - hour: "15:00"
         name: "IQOQI Lab tour (Part I)"
         location:
             name: "IQOQI"
             tag: "iqoqi"
             room: "IQOQI Laboratories" 
-      - hour: "16:30"
+      - hour: "17:30"
         name: "Group activity"
         location:
             name: "City center"
             tag: "city"
-      - hour: "19:00"
+      - hour: "20:00"
         name: "Dinner"
         location:
           name: "TBD"
@@ -99,14 +97,14 @@ schedule:
           tag: "iqoqi"
           room: "IQOQI Schrödingersaal"
         subactivities: 
-            - title: "TBD"
+            - title: "Fermionic quantum mixtures"
               people:
-                name: "Dr. Christian Roos (AG Blatt)"
-                tag: "roos"
-            - title: "TBD"
+                name: "Dr. Cosetta Baroni"
+                tag: "baroni"
+            - title: "Quantum applications with rydberg atoms"
               people:
-                name: "TBD (AG Grimm)"
-                tag: "ferlaino"
+                name: "Dr. Robert Ott"
+                tag: "ott"
       - hour: "11:00"
         name: "Coffee Break"
         location:
@@ -120,16 +118,18 @@ schedule:
           tag: "iqoqi"
           room: "IQOQI Schrödingersaal"
         subactivities: 
-            - title: "TBD"
+            - title: "Superconducting quantum circuits"
               people:
-                name: "Prof. Oriol Romero-Isart"
-                tag: "romero"
+                name: "Prof. Gerhard Kirchmair"
+                tag: "kirchmair"
       - hour: "12:30"
         name: "Lunch"
         location:
           name: "TechCafé/Mensa"
           tag: "techcafe"
           #room: "TBD"
+      - hour: "13:45"
+        name: "Group photo"
       - hour: "14:00"
         name: "IQOQI Lab tour (Part II)"
         location:
@@ -161,20 +161,32 @@ schedule:
           tag: "iqoqi"
           room: "IQOQI Schrödingersaal"
         subactivities: 
-            - title: "TBD"
+            - title: "Variational Quantum Metrology"
               people:
-                name: "Prof. Gerhard Kirchmair"
-                tag: "kirchmair"
-            - title: "TBD"
+                name: "Dr. Denis Vasilyev"
+                tag: "vasilyev"
+            - title: "Quantum physics with trapped ions"
               people:
-                name: "Prof. Hannes Pichler"
-                tag: "pichler"
+                name: "Dr. Christian Roos"
+                tag: "roos"
       - hour: "11:00"
-        name: "Free time for Lunch (might vary)"
-      - hour: "15:00"
-        name: "Departure from Innsbruck"
-      - hour: "18:00"
-        name: "Check in at the hostel"
+        name: "Awards ceremony and final remarks"
+        location:
+          name: "IQOQI"
+          tag: "iqoqi"
+          room: "IQOQI Schrödingersaal"
+      - hour: "11:45"
+        name: "Lunch"
+        location:
+          name: "TechCafé/Mensa"
+          tag: "techcafe"
+      - hour: "15:24"
+        name: "Departure to Trento"
+        location:
+          name: "Innsbruck Hauptbanhof"
+          tag: "hauptbanhof"
+      - hour: "18:02"
+        name: "Arrival in Trento and check in at the hostel"
         location:
           name: "Ostello Trento"
           tag: "hosteltrento"
