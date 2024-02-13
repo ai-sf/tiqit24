@@ -61,7 +61,7 @@ schedule:
         subactivities: 
             - title: "Simulating exotic phases of quantum gases"
               people:
-                name: "ass. prof. Russel Bisset"
+                name: "ass. prof. Russell Bisset"
                 tag: "bisset"
       - hour: "12:30"
         name: "Lunch and open discussion with prof. Ferlaino"
