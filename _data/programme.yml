@@ -357,15 +357,15 @@ schedule:
           - title: "Pulse level control of quantum computers"
             people:
               name: "prof. Francesco Pederiva"
-          - title: "TBD"
+          - title: "Solving industry-relevant problems using quantum computing"
             people:
-              name: "Alberto Bottarelli"
-          - title: "TBD"
+              name: "Gopal Chandra Santra"
+          - title: "Quantum Simulation of Lattice Gauge Theories"
             people:
-              name: "Julius Mildenberg"
+              name: "dr. Julius Mildenberger"
           - title: "Introduction to quantum circuits"
             people:
-              name: "dr. Soumik Bandyopadhyay"
+              name: "Veronica Panizza"
       - hour: "15:00"
         name: "Coffee break"
         location: 
@@ -381,7 +381,7 @@ schedule:
         subactivities:
           - title: "Hands on session"
             people:
-              name: "dr. Soumik Bandyopadhyay"
+              name: "David Pascual Solis"
       - hour: "17:30"
         name: "Free time"
       - hour: "19:30"
